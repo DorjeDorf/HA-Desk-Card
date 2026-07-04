@@ -1,4 +1,5 @@
 {
   "name": "Standing Desk Control Card",
-  "filename": "desk-card.js"
+  "filename": "desk-card.js",
+  "hide_default_branch": true
 }
