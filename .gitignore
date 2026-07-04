@@ -1,0 +1,25 @@
+# Build output — HACS validates the compiled card from the repo tree, so the
+# built JS is committed; everything else in dist/ (source maps) is ignored.
+dist/*
+!dist/desk-card.js
+
+# Dependencies
+node_modules/
+
+# Source maps (optional, large)
+*.js.map
+
+# Internal design/prototype scaffolding — kept locally, not part of the card
+specs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
