@@ -1,6 +1,6 @@
 {
   "name": "ha-desk-card",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Standing Desk Control Card for Home Assistant",
   "type": "module",
   "main": "dist/desk-card.js",
